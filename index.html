@@ -10,18 +10,18 @@
   <body>
     <div class="container">
       <div class="row">
-    <h1 id="title" class="text-center text-light">Random Quote Generator</h1>
-    <div class="col-12 m-auto card ht mt-4">
+    <h1 id="title" class="text-center text-light p-2">Random Quote Generator</h1>
+    <div class="col-md-7 col-10 m-auto card ht p-2">
     <wrapper id="quote-box" class="text-center text-dark fs-4">
       <div id="text" class="mt-sm-5 mt-2"></div>
       <div id="author" class="text-end"></div>
     </wrapper>
-  
-      <button class ="btn btn-danger"id="new-quote" onclick="getRandomQuote()">New Quote</button>
-      <a href="#" class="btn btn-primary" id="tweet-quote">Twitter</a>
-    </div>
+    <div class="d-flex flex-row justify-content-center m-auto fixed-bottom mb-3">
+       <div><button class ="btn btn-danger" id="new-quote" onclick="getRandomQuote()">New Quote</button></div>
+       <div><a href="#" class="btn btn-primary" id="tweet-quote">Twitter</a></div>
       </div>
-  </div>
+      </div>
+    </div>
     </div>
     <footer class="position-block text-center text-warning">Made with 💙 by Kesav</footer>
   </body>
